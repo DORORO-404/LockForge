@@ -48,28 +48,32 @@ python lockforge.py
 ## 🖥️ Example Usage
 
 ```bash
-[+] ===== Welcome to LockForge - Secure Your Files with Ease! ===== [+]
+[★] Welcome to LockForge — Secure. Encrypt. Protect.
+[i] AES-256 encryption ensures top-level security for your files.
+[i] LockForge is now ready to protect your data!
 
-[1] Encrypt a File
-[2] Decrypt a File
-[3] Exit LockForge
->> Choose an option: 1
-Enter the name of the file you want to encrypt: File.txt
-Enter a password to encrypt the file: dororo
-Success: File 'File.txt' has been encrypted successfully as 'File.txt.aes'.
-[1] Encrypt a File
-[2] Decrypt a File
-[3] Exit LockForge
->> Choose an option: 2
-Enter the name of the encrypted file (.aes): File.txt.aes
-Enter the password to decrypt the file: dororo
-Success: File 'File.txt.aes' has been decrypted successfully as 'File.txt'.
-[1] Encrypt a File
-[2] Decrypt a File
-[3] Exit LockForge
->> Choose an option: 3
+--------------------------------------------------
 
-Exiting LockForge... Thank you for using LockForge!
+[★] Please choose one of the following options:
+[1] Encrypt a file
+[2] Decrypt a file
+[3] Exit LockForge
+[>] Your choice: 1
+
+[>] Enter the full path or name of the file to encrypt: file.txt
+[>] Enter a password to encrypt the file: 
+
+[✓] File 'file.txt' has been successfully encrypted as 'file.txt.aes'.
+
+[★] Please choose one of the following options:
+[1] Encrypt a file
+[2] Decrypt a file
+[3] Exit LockForge
+[>] Your choice: 3
+
+[*] Exiting LockForge...
+[!] Thank you for using LockForge!
+[i] Your session has been successfully closed.
 ```
 
 ## 🤝 Contributing
