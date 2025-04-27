@@ -61,7 +61,7 @@ python lockforge.py
 [>] Enter your choice: 1
 
 [>] Enter the full path or filename of the file you want to encrypt: file.txt
-[>] Please enter a password to encrypt the file: 
+[>] Please enter a password to encrypt the file: password
 
 [i] Encrypting... Please wait.
 [✓] File encrypted successfully as 'file.txt.aes'
