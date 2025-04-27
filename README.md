@@ -64,7 +64,7 @@ python lockforge.py
 [>] Please enter a password to encrypt the file: 
 
 [i] Encrypting... Please wait.
-[✓] File encrypted successfully as 'C:\Users\rabie\Documents\Github\LockForge\file.txt.aes'
+[✓] File encrypted successfully as 'file.txt.aes'
 
 [?] Delete the original file? [Y/n]: y
 [✓] Original file deleted.
