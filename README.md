@@ -50,30 +50,34 @@ python lockforge.py
 ```bash
 [★] Welcome to LockForge — Secure. Encrypt. Protect.
 [i] AES-256 encryption ensures top-level security for your files.
-[i] LockForge is now ready to protect your data!
+[i] LockForge is ready to safeguard your data!
 
---------------------------------------------------
+---------------------------------------------------------------------------
 
-[★] Please choose one of the following options:
-[1] Encrypt a file
-[2] Decrypt a file
-[3] Exit LockForge
-[>] Your choice: 1
+[★] What would you like to do?
+[1] 📁🔒 Encrypt a file
+[2] 📂🔓 Decrypt a file
+[3] 🚪👋 Exit LockForge
+[>] Enter your choice: 1
 
-[>] Enter the full path or name of the file to encrypt: file.txt
-[>] Enter a password to encrypt the file: 
+[>] Enter the full path or filename of the file you want to encrypt: file.txt
+[>] Please enter a password to encrypt the file: 
 
-[✓] File 'file.txt' has been successfully encrypted as 'file.txt.aes'.
+[i] Encrypting... Please wait.
+[✓] File encrypted successfully as 'C:\Users\rabie\Documents\Github\LockForge\file.txt.aes'
 
-[★] Please choose one of the following options:
-[1] Encrypt a file
-[2] Decrypt a file
-[3] Exit LockForge
-[>] Your choice: 3
+[?] Delete the original file? [Y/n]: y
+[✓] Original file deleted.
+
+[★] What would you like to do?
+[1] 📁🔒 Encrypt a file
+[2] 📂🔓 Decrypt a file
+[3] 🚪👋 Exit LockForge
+[>] Enter your choice: 3
 
 [*] Exiting LockForge...
-[!] Thank you for using LockForge!
-[i] Your session has been successfully closed.
+[!] Thank you for trusting LockForge!
+[i] Session ended successfully.
 ```
 
 ## 🤝 Contributing
