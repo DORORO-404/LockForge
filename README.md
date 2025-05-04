@@ -48,33 +48,48 @@ python lockforge.py
 ## 🖥️ Example Usage
 
 ```bash
-[★] Welcome to LockForge — Secure. Encrypt. Protect.
+[+] Welcome to LockForge — Secure. Encrypt. Protect.
 [i] AES-256 encryption ensures top-level security for your files.
 [i] LockForge is ready to safeguard your data!
 [i] Type 'exit', 'quit', 'close', or CTRL + C at any time to exit.
 ---------------------------------------------------------------------------
 
-[★] What would you like to do?
-[1] 📁🔒 Encrypt a file
-[2] 📂🔓 Decrypt a file
-[3] 🚪👋 Exit LockForge
-[>] Enter your choice: 1
+[+] What would you like to do?
+[1] 🔒 Encrypt a file
+[2] 🔓 Decrypt a file
+[3] 🚪 Exit LockForge
+[>] Enter your choice: 1   
 
-[>] Enter the full path or filename of the file you want to encrypt: file.txt
-[>] Please enter a password to encrypt the file: 
+[>] Enter the full path or filename to encrypt: file.txt
+[>] Enter password to encrypt: password@123456
 [i] Password accepted.
-[>] Confirm the password:
+[>] Confirm password: password@123456
 
 [i] Encrypting... Please wait.
-[✓] File encrypted successfully as 'file.txt.aes'
+[✓] File encrypted as 'file.txt.aes'
 
-[?] Delete the original file? [Y/n]: n
-[i] Original file was kept.
+[?] Delete the original file? [Y/n]: y
+[✓] Original file deleted.
 
-[★] What would you like to do?
-[1] 📁🔒 Encrypt a file
-[2] 📂🔓 Decrypt a file
-[3] 🚪👋 Exit LockForge
+[+] What would you like to do?
+[1] 🔒 Encrypt a file
+[2] 🔓 Decrypt a file
+[3] 🚪 Exit LockForge
+[>] Enter your choice: 2
+
+[>] Enter the full path or filename to decrypt: file.txt
+[>] Enter password to decrypt: password@123456
+
+[i] Decrypting... Please wait.
+[✓] File decrypted as 'file.txt'
+
+[?] Delete the original file? [Y/n]: y
+[✓] Original file deleted.
+
+[+] What would you like to do?
+[1] 🔒 Encrypt a file
+[2] 🔓 Decrypt a file
+[3] 🚪 Exit LockForge
 [>] Enter your choice: 3
 
 [i] Exit command received.
