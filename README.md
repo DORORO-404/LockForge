@@ -30,7 +30,6 @@ It allows users to:
 
 **Python Modules**:
 - `pyAesCrypt` – for AES encryption/decryption
-- `colorama` – for colorful terminal output
 - `pyfiglet` – for banner ASCII art
 - `os`, `sys` – for file operations and system exit
 
